@@ -14,7 +14,7 @@ if compare[i] != "dlr0w_s1h7_s1_yz4rC"[reversed_flag_string - i - 1]:
 	exit(-1)     
 else:         
 	print("Correct flag!")         
-	print("Flag:", compare)
+	print("Flag:", reversed_flag_string[::-1])
 	break 
 ``` 
 ``` 
