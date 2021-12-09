@@ -36,5 +36,5 @@ ni (do "ni" until strcmp is called)
 print (char *) ($rsi)
 ```
 ```
-Flag: 
+Flag: flag{Did_y0U_jU57_r3V3r53}
 ```
