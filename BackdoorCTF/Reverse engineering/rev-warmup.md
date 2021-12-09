@@ -1,4 +1,4 @@
-# CTF Name – rev-warmup
+# BackdoorCTF – rev-warmup
 
 * **Category:** reversing
 * **Points:** 235
