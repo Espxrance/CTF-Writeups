@@ -1,7 +1,7 @@
 # CTF Name – rev-warmup
 
 * **Category:** reversing
-* **Points:** 100
+* **Points:** 235
 
 ## Challenge
 
