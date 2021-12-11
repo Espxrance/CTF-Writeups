@@ -30,10 +30,14 @@ print("Flag: %s" % ''.join(results))
 
 We can break at the main function then skip steps until we reach the strcmp(string compare) call and from then we can check the RDI register to see what is being compared.
 
-```gdb
-b main
-ni (do "ni" until strcmp is called)
-print (char *) ($rsi)
+```python3
+#gdb ./rev-warmup -x ./script.py
+import gdb
+gdb.execute('break main')
+gdb.execute('b * 0x555555400892')
+gdb.execute('run')
+gdb.execute('continue')
+gdb.execute('print (char *) ($rsi)')
 ```
 ```
 Flag: flag{Did_y0U_jU57_r3V3r53}
