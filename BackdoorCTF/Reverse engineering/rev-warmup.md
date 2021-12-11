@@ -28,7 +28,7 @@ print("Flag: %s" % ''.join(results))
 ![image](https://user-images.githubusercontent.com/78451563/145464845-bb68466b-2c79-4252-9236-627be67d7c4f.png)
 ![image](https://user-images.githubusercontent.com/78451563/145465345-37e1f49e-c630-4e14-9116-2eec4b319f81.png)
 
-We can break at the main function then skip steps until we reach the strcmp(string compare) call and from then we can check the RDI register to see what is being compared.
+We can break at the main function then until we reach the strcmp(string compare) call and from then we can check the RSI register to see what is being compared.
 
 ```python3
 #gdb ./rev-warmup -x ./script.py
