@@ -1,35 +1,19 @@
-# angstromctf 2022 - crumbs
+# angstrom 2022 - auth skip
+
 * **Category:** web
-* **Points:** 50
+* **Points:** 40
+
 ## Challenge
->Follow the crumbs.
->Server: index.js
+
+>Clam was doing his angstromCTF flag% speedrun when he ran into the infamous timesink known in the speedrunning community as "auth".</br>
+>Can you pull off the legendary auth skip and get the flag?
+
 ## Solution
-![image](https://user-images.githubusercontent.com/78451563/166748934-bd7e521a-6bf0-43c3-9f45-ac2b5a785add.png)</br>
-##### Basically following the crumbs.
+![image](https://user-images.githubusercontent.com/78451563/166802135-3f3eee19-fd8b-46f7-ada8-d4ced7a128b2.png)</br>
+#### No random encryption was assigned to the cookie creation</br>♡ Once the username "admin" and the correct password is sent a cookie is assigned.</br>♡ We can create a cookie with the value of "admin"</br>
+![image](https://user-images.githubusercontent.com/78451563/166801968-21cf7407-a9de-4d4e-af53-cee2a028482c.png)</br>
 
-♡ A list is being created with 1000 random v5 UUID's</br>
-♡ At the end of the list the flag is replaced with the 1000th v5 UUID
-```bash
-#!/bin/bash
-url="https://crumbs.web.actf.co/"
-response=$(curl $url -s)
-echo "${response: 6}"
-while true
-do
-	if [[ "actf{" == *${response}* ]]; then
-		echo -e "\e[5mSuccess\!"
-		echo $response
-		exit
-	else
-		uuid=${response: 6}
-		echo $url$uuid
-		response=$(curl $url$uuid -s)
-		echo $response
-	fi
-done
-```
 
 ```
-Flag: actf{w4ke_up_to_th3_m0on_6bdc10d7c6d5}
+Flag: actf{passwordless_authentication_is_the_new_hip_thing}
 ```
