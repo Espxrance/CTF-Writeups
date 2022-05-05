@@ -16,7 +16,7 @@ print(f"Vuln: {vuln[0]}{vuln[5]}{vuln[11]}")
 #### XSS Bypass
 ![image](https://user-images.githubusercontent.com/78451563/166805274-bb37ee0d-1452-474e-a256-719426e7e6da.png)
 ![image](https://user-images.githubusercontent.com/78451563/166806002-020feebe-1b22-4228-85bb-4209f71a4433.png)</br>
-♡ Though it uses the replace function to sanatize the input, it will only act on the first character presented.
+♡ Though it uses the replace function to sanatize the input, it will only act on the first character presented.</br>
 ♡ Therefore, we can enter our payload twice to bypass.</br>
 #### Ngrok + Webhook
 ```javascript
