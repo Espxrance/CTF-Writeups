@@ -15,9 +15,10 @@ How to find the main address:
 1. Search for defined strings and check for references</br>
 ![image](https://user-images.githubusercontent.com/78451563/180714609-10ff3336-7840-4666-84d7-d10f18fc5674.png)
 
-2. Go to `entry` function</br>
+2. Go to `entry()` function</br>
 ![image](https://user-images.githubusercontent.com/78451563/180715144-2e5ea227-4ccb-4b8e-ad12-3157753b6a79.png)
 
+**Main function**
 
 ![image](https://user-images.githubusercontent.com/78451563/180673509-81d4f00b-15ac-4fa3-85cc-404a9790c6f6.png)
 
