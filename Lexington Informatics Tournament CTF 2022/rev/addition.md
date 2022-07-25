@@ -47,5 +47,5 @@ sm.explore(find=0x4010dd,avoid=0x4010c9) # addresses we want to reach or avoid e
 print(f'Input: {sm.found[0].posix.dumps(0)}')
 ```
 ```
-LITCTF{add1ti0n_is_h4rd}
+Flag: LITCTF{add1ti0n_is_h4rd}
 ```
