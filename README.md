@@ -28,5 +28,5 @@ If you have any question with reference to my writeups, please feel free to [cre
 
 Also, my DM's are always open for suggestion of alternative approaches to a problem. Messaging Socials below :)
 
--**[Discord](https://discord.com/)**: Espxrance#5649</br>
--**[Twitter](https://twitter.com/)**: [0xEspxrance](https://twitter.com/0xespxrance)
+- **[Discord](https://discord.com/)**: Espxrance#5649</br>
+- **[Twitter](https://twitter.com/)**: [0xEspxrance](https://twitter.com/0xespxrance)
