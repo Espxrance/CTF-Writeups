@@ -1,7 +1,7 @@
 # CTF (Capture The Flag) writeups
 
 These are a few writeups for the CTF I have participated in. Enjoy!
->I've been playing CTF's around 2021 and have gained new skills and knowledge by solving challenges. I believe that by creating writeups everyone could learn a thing or two even the smallest of challenges </br>
+>I've been playing CTF's around 2021 and have gained new skills and knowledge by solving challenges. I believe that by creating writeups everyone could learn a thing or two even the smallest of challenges :)</br>
 
 ## Writeups - 2022
 - [FooBar CTF](FooBar%20CTF%202022/)
