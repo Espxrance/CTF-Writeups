@@ -4,10 +4,10 @@ These are a few writeups for the CTF I have participated in. Enjoy!
 >I've been playing CTF's around 2021 and have gained new skills and knowledge by solving challenges. I believe that by creating writeups everyone could learn a thing or two even the smallest of challenges :)</br>
 
 ## Writeups - 2022
-- [FooBar CTF](FooBar%20CTF%202022/)
+- [Angstrom CTF](angstrom%202022)
 - [Wreck CTF](WRECKCTF%202022/pwn)
 - [Lexington Informatics Tournament CTF](Lexington%20Informatics%20Tournament%20CTF%202022)
-- [Angstrom CTF](angstrom%202022)
+- [FooBar CTF](FooBar%20CTF%202022/)
 ### Permanent CTFs
 - **[BackdoorCTF](https://backdoor.sdslabs.co/)**
   * Categories:
