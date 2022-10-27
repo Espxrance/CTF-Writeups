@@ -37,7 +37,7 @@ def register(username, password):
 
 ![image](https://user-images.githubusercontent.com/78451563/198289332-b30893d0-8bb9-49af-b75b-c3bb43234e5e.png)
 
-1. Firstly i ended the firstly query to make it easier:
+1. Firstly i ended the first INSERT query to make it easier:
 ```sql
 admin","password");-- -
 ```
