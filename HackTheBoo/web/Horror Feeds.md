@@ -52,7 +52,7 @@ def generate_password_hash(password):
 def verify_hash(password, passhash):
     return bcrypt.checkpw(password.encode(), passhash.encode())
 ```
-* The server verfies our password using `bcrypt.checkpw` which involves the comparison of the already hashed stored password and the hashed entered password.
+* The server verifies our password using `bcrypt.checkpw` which involves the comparison of the already hashed stored password and the hashed entered password.
 
 ![image](https://user-images.githubusercontent.com/78451563/198292904-6832a28a-f3c7-4679-9a69-ff4a80d3d3ff.png)
 
@@ -86,8 +86,6 @@ ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jO
 ![image](https://user-images.githubusercontent.com/78451563/198306235-edbda84e-9564-461e-8102-e1da3745d3b8.png)
 
 ![image](https://user-images.githubusercontent.com/78451563/198306332-3b666681-382d-40b3-b736-8dd644feb4a1.png)
-
-
 
 
 ```
