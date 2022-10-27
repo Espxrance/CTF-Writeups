@@ -77,7 +77,7 @@ If you get Commands out of sync; you can’t run this command now in your client
 ```
 * To resolve this error i used the `ON DUPLICATE KEY UPDATE` query.
 ```sql
-admin","test") ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jOpoRPH3N5xqwF.tWdyefOJwiUOR6KCfa'-- -
+ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jOpoRPH3N5xqwF.tWdyefOJwiUOR6KCfa'
 ```
 
 ![image](https://user-images.githubusercontent.com/78451563/198306235-edbda84e-9564-461e-8102-e1da3745d3b8.png)
