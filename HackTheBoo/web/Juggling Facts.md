@@ -1,6 +1,7 @@
 # HackTheBoo - Juggling Facts  
 * **Category:** Web 
-* **Points:** 200  
+* **Points:** 200
+* **Author:** xcl0w3n  
 ## Challenge  
 > An organization seems to possess knowledge of the true nature of pumpkins. Can you find out what they honestly know and uncover this centuries-long secret once and for all?  
 ## Solution 
