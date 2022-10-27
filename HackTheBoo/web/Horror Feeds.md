@@ -76,6 +76,9 @@ UPDATE users SET password='$2b$12$/SM/o3oxLx.rpLNtBrhrkOCXxK/myFjO7DsE83Xws95RSy
 If you get Commands out of sync; you can’t run this command now in your client code, you are calling client functions in the wrong order.
 ```
 * To resolve this error i used the `ON DUPLICATE KEY UPDATE` query.
+
+[Payload Query Reference](https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/)
+
 ```sql
 ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jOpoRPH3N5xqwF.tWdyefOJwiUOR6KCfa'
 ```
@@ -85,7 +88,7 @@ ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jO
 ![image](https://user-images.githubusercontent.com/78451563/198306332-3b666681-382d-40b3-b736-8dd644feb4a1.png)
 
 
- [Payload Query Reference](https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/)
+
 
 ```
 Flag: HTB{N3ST3D_QU3R1E5_AR3_5CARY!!!}
