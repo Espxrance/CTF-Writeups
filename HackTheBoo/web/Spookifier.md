@@ -1,7 +1,8 @@
 # HackTheBoo - Spookifier
 
 * **Category:** Web
-* **Points:** 200-1000
+* **Points:** 200
+* **Author:** xcl0w3n  
 
 ## Challenge
 
