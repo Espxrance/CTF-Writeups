@@ -2,6 +2,7 @@
 
 * **Category:** Web
 * **Points:** 200
+* **Authors:** Xclow3n, Rayhan0x01, Maklaris
 
 ## Challenge
 
