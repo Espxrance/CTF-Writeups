@@ -1,5 +1,7 @@
 # HackTheBoo - Web Challenges
 
+*Click README.md for linking to work. Thanks!*
+
 | Name | Difficulty | Link |
 |------------|------------|------|
 |Evaluation Deck| easy |[Here](./Evaluation%20Deck.md)|
